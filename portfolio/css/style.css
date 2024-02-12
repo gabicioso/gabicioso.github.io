@@ -1,0 +1,83 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+font-family:Courier New, monospace;
+background:rgb(204,204,255);
+color:rgb(0,0,102);
+margin:auto;
+	
+header{text-align:center;}
+h2{font-size:0.95em}
+
+#container {	
+
+border:10px solid rgb(128,255,255);
+background:rgb(230,230,255);
+	width:85%;
+	max-width: 900px;
+	margin:auto;
+	padding:10px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.center{
+	diplay:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+	background:rgb(128,128,255);
+	overflow:hidden;
+	color:rgb(0,0,77);
+
+}
+li{
+	display:inline;
+	float:left;
+	border-right:1px solid blue;
+}
+nav a {
+	display:block;
+	padding:10px;
+	color:rgb(128,255,255);
+}
+nav a:hover{
+	color:rgb(255,223,128);
+}
+figure{
+	margin-right:auto;
+	margin-left:auto;
+
+}
+figcaption{
+	text-align:center;
+	font-size:0.75em;
+}
+figure img{width:100%;
+}
+
+figcaption,footer{font-size:0.75em; }
+
+
+	}}
+	
